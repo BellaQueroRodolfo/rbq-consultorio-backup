@@ -1,0 +1,22 @@
+{
+  "patients": {},
+  "sessions": {},
+  "ipcHistory": [],
+  "absences": [],
+  "vacationBlocks": [],
+  "supervisionLog": [],
+  "waitingList": [],
+  "dollarRates": [],
+  "lastFeeReview": "2026-05-21",
+  "lastDailyCheck": null,
+  "lastEndOfDay": null,
+  "settings": {
+    "inPersonDay": "viernes",
+    "bufferMin": 10,
+    "monthlyGoal": 0,
+    "pin": "2486",
+    "darkMode": true
+  },
+  "driveFileId": null,
+  "githubConfig": null
+}
