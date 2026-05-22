@@ -15,8 +15,13 @@
     "bufferMin": 10,
     "monthlyGoal": 0,
     "pin": "2486",
-    "darkMode": true
+    "darkMode": true,
+    "autoSync": true
   },
   "driveFileId": null,
-  "githubConfig": null
+  "githubConfig": {
+    "token": "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",
+    "owner": "BellaQueroRodolfo",
+    "repo": "rbq-consultorio-backup"
+  }
 }
