@@ -7,7 +7,7 @@
   "supervisionLog": [],
   "waitingList": [],
   "dollarRates": [],
-  "lastFeeReview": "2026-05-21",
+  "lastFeeReview": "2026-05-23",
   "lastDailyCheck": null,
   "lastEndOfDay": null,
   "settings": {
@@ -16,12 +16,8 @@
     "monthlyGoal": 0,
     "pin": "2486",
     "darkMode": true,
-    "autoSync": true
+    "autoSync": false
   },
   "driveFileId": null,
-  "githubConfig": {
-    "token": "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",
-    "owner": "BellaQueroRodolfo",
-    "repo": "rbq-consultorio-backup"
-  }
+  "githubConfig": null
 }
