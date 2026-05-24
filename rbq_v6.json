@@ -1,5 +1,52 @@
 {
-  "patients": {},
+  "patients": {
+    "mpgtcpkak3vi": {
+      "id": "mpgtcpkak3vi",
+      "name": "Fernando SC",
+      "fee": 40000,
+      "schedule": [
+        {
+          "day": "martes",
+          "time": "11:00"
+        }
+      ],
+      "mode": "telehealth",
+      "tags": [],
+      "referral": "",
+      "phone": "",
+      "active": true,
+      "addedAt": "2026-05-22",
+      "feeHistory": [
+        {
+          "fee": 40000,
+          "date": "2026-05-22"
+        }
+      ]
+    },
+    "mpgtf7kw122l": {
+      "id": "mpgtf7kw122l",
+      "name": "Mauro Fut",
+      "fee": 40000,
+      "schedule": [
+        {
+          "day": "martes",
+          "time": "15:00"
+        }
+      ],
+      "mode": "presencial",
+      "tags": [],
+      "referral": "",
+      "phone": "",
+      "active": true,
+      "addedAt": "2026-05-22",
+      "feeHistory": [
+        {
+          "fee": 40000,
+          "date": "2026-05-22"
+        }
+      ]
+    }
+  },
   "sessions": {},
   "ipcHistory": [],
   "absences": [],
@@ -7,7 +54,7 @@
   "supervisionLog": [],
   "waitingList": [],
   "dollarRates": [],
-  "lastFeeReview": "2026-05-23",
+  "lastFeeReview": "2026-05-22",
   "lastDailyCheck": null,
   "lastEndOfDay": null,
   "settings": {
