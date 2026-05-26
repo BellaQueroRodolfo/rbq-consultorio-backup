@@ -11,7 +11,7 @@
         }
       ],
       "mode": "presencial",
-      "paymentSchedule": "whenever",
+      "paymentSchedule": "end_month",
       "tags": [],
       "referral": "Derivación colega",
       "phone": "",
@@ -987,10 +987,139 @@
       "amount": 45000,
       "note": "",
       "loggedAt": "2026-05-26T00:50:37.257Z"
+    },
+    "mpm22g0wv313": {
+      "id": "mpm22g0wv313",
+      "patientId": "mpjze9v17wr0",
+      "patientName": "Bruno D",
+      "date": "2024-12-23",
+      "status": "cancelada_ilegal",
+      "amount": 45000,
+      "note": "Faltó sin avisar - última sesión del mes",
+      "loggedAt": "2026-05-26T03:08:17.696Z"
     }
   },
-  "payments": {},
-  "ipcHistory": [],
+  "payments": {
+    "mpm1pqdjra5q": {
+      "id": "mpm1pqdjra5q",
+      "patientId": "mpjyvvwvmur7",
+      "patientName": "Hernán L",
+      "amount": 35000,
+      "date": "2025-01-18",
+      "note": "Pago de sesión - al día",
+      "loggedAt": "2026-05-26T02:58:24.583Z"
+    },
+    "mpm1q94fj5x5": {
+      "id": "mpm1q94fj5x5",
+      "patientId": "mpjyvvwvmur7",
+      "patientName": "Hernán L",
+      "amount": 35000,
+      "date": "2026-05-25",
+      "note": "",
+      "loggedAt": "2026-05-26T02:58:48.879Z"
+    },
+    "mpm20xbxblee": {
+      "id": "mpm20xbxblee",
+      "patientId": "mpjyvvwvmur7",
+      "patientName": "Hernán L",
+      "amount": 35000,
+      "date": "2026-05-26",
+      "note": "",
+      "loggedAt": "2026-05-26T03:07:06.813Z"
+    },
+    "mpm21dipqh9h": {
+      "id": "mpm21dipqh9h",
+      "patientId": "mpjyvvwvmur7",
+      "patientName": "Hernán L",
+      "amount": 35000,
+      "date": "2025-01-22",
+      "note": "Pago al día",
+      "loggedAt": "2026-05-26T03:07:27.793Z"
+    },
+    "mpm23mpi3hb0": {
+      "id": "mpm23mpi3hb0",
+      "patientId": "mpj5rpirrdw0",
+      "patientName": "Fernando S",
+      "amount": 40000,
+      "date": "2026-05-26",
+      "note": "",
+      "loggedAt": "2026-05-26T03:09:13.014Z"
+    },
+    "mpm2419ptz8s": {
+      "id": "mpm2419ptz8s",
+      "patientId": "mpj5rpirrdw0",
+      "patientName": "Fernando S",
+      "amount": 40000,
+      "date": "2026-05-26",
+      "note": "",
+      "loggedAt": "2026-05-26T03:09:31.885Z"
+    },
+    "mpm24d86zfzs": {
+      "id": "mpm24d86zfzs",
+      "patientId": "mpj5rpirrdw0",
+      "patientName": "Fernando S",
+      "amount": 40000,
+      "date": "2026-05-26",
+      "note": "",
+      "loggedAt": "2026-05-26T03:09:47.382Z"
+    },
+    "mpm24widixdf": {
+      "id": "mpm24widixdf",
+      "patientId": "mpjze9v17wr0",
+      "patientName": "Bruno D",
+      "amount": 45000,
+      "date": "2026-05-26",
+      "note": "",
+      "loggedAt": "2026-05-26T03:10:12.373Z"
+    },
+    "mpm257ubi7k0": {
+      "id": "mpm257ubi7k0",
+      "patientId": "mpjze9v17wr0",
+      "patientName": "Bruno D",
+      "amount": 45000,
+      "date": "2026-05-26",
+      "note": "",
+      "loggedAt": "2026-05-26T03:10:27.059Z"
+    },
+    "mpm25ficxfqx": {
+      "id": "mpm25ficxfqx",
+      "patientId": "mpjyvvwvmur7",
+      "patientName": "Hernán L",
+      "amount": 45000,
+      "date": "2026-05-26",
+      "note": "",
+      "loggedAt": "2026-05-26T03:10:36.996Z"
+    },
+    "mpm25rgbvl9x": {
+      "id": "mpm25rgbvl9x",
+      "patientId": "mpjze9v17wr0",
+      "patientName": "Bruno D",
+      "amount": 45000,
+      "date": "2026-05-26",
+      "note": "",
+      "loggedAt": "2026-05-26T03:10:52.475Z"
+    }
+  },
+  "ipcHistory": [
+    {
+      "month": 12,
+      "year": 2024,
+      "value": null,
+      "addedAt": "2026-05-25"
+    },
+    {
+      "month": 12,
+      "year": 2024,
+      "value": null,
+      "addedAt": "2026-05-25"
+    },
+    {
+      "month": 12,
+      "year": 2024,
+      "value": "X",
+      "addedAt": "2026-05-25"
+    }
+  ],
   "absences": [
     {
       "id": "mpjwptgugl22",
@@ -1008,7 +1137,7 @@
   "waitingList": [],
   "dollarRates": [],
   "lastFeeReview": "2026-05-23",
-  "lastDailyCheck": "2026-05-25",
+  "lastDailyCheck": "2026-05-26",
   "lastEndOfDay": "2026-05-25",
   "settings": {
     "inPersonDay": "viernes",
