@@ -273,7 +273,7 @@
         }
       ],
       "mode": "telehealth",
-      "paymentSchedule": "whenever",
+      "paymentSchedule": "start_month",
       "tags": [],
       "referral": "Derivación colega",
       "phone": "",
@@ -333,7 +333,8 @@
           "fee": 50000,
           "date": "2026-05-24"
         }
-      ]
+      ],
+      "paymentSchedule": "whenever"
     },
     "mpk960k2u1yp": {
       "id": "mpk960k2u1yp",
@@ -356,6 +357,56 @@
         {
           "fee": 40000,
           "date": "2026-05-24"
+        }
+      ]
+    },
+    "mpm3d894ilf0": {
+      "id": "mpm3d894ilf0",
+      "name": "Augusto S",
+      "fee": 30000,
+      "schedule": [
+        {
+          "day": "lunes",
+          "time": "17:00",
+          "frequency": "weekly"
+        }
+      ],
+      "mode": "telehealth",
+      "paymentSchedule": "per_session",
+      "tags": [],
+      "referral": "Derivación colega",
+      "phone": "",
+      "active": true,
+      "addedAt": "2026-05-26",
+      "feeHistory": [
+        {
+          "fee": 30000,
+          "date": "2026-05-26"
+        }
+      ]
+    },
+    "mpmxttanoejc": {
+      "id": "mpmxttanoejc",
+      "name": "Nahuel M",
+      "fee": 40000,
+      "schedule": [
+        {
+          "day": "martes",
+          "time": "14:00",
+          "frequency": "weekly"
+        }
+      ],
+      "mode": "presencial",
+      "paymentSchedule": "end_month",
+      "tags": [],
+      "referral": "Derivación colega",
+      "phone": "",
+      "active": true,
+      "addedAt": "2026-05-26",
+      "feeHistory": [
+        {
+          "fee": 40000,
+          "date": "2026-05-26"
         }
       ]
     }
@@ -487,11 +538,10 @@
       "patientId": "mpj5vhfmqsjm",
       "patientName": "Mabel Fut",
       "date": "2026-05-19",
-      "status": "cancelada_legal",
-      "paid": false,
+      "status": "realizada",
       "amount": 40000,
       "note": "",
-      "loggedAt": "2026-05-24T02:32:14.908Z"
+      "loggedAt": "2026-05-26T03:37:17.885Z"
     },
     "mpjwo1bzsm7p": {
       "id": "mpjwo1bzsm7p",
@@ -521,10 +571,9 @@
       "patientName": "Ezequiel M",
       "date": "2026-05-19",
       "status": "realizada",
-      "paid": false,
       "amount": 40000,
       "note": "",
-      "loggedAt": "2026-05-24T15:01:44.265Z"
+      "loggedAt": "2026-05-26T03:37:35.316Z"
     },
     "mpjwptgu29dc": {
       "id": "mpjwptgu29dc",
@@ -565,10 +614,9 @@
       "patientName": "Martín F",
       "date": "2026-05-19",
       "status": "cancelada_legal",
-      "paid": false,
       "amount": 35000,
       "note": "",
-      "loggedAt": "2026-05-24T16:01:05.708Z"
+      "loggedAt": "2026-05-26T03:36:47.181Z"
     },
     "mpjyw0bbkrb7": {
       "id": "mpjyw0bbkrb7",
@@ -997,6 +1045,126 @@
       "amount": 45000,
       "note": "Faltó sin avisar - última sesión del mes",
       "loggedAt": "2026-05-26T03:08:17.696Z"
+    },
+    "mpm33ctpjzt4": {
+      "id": "mpm33ctpjzt4",
+      "patientId": "mpjwnny4lj7o",
+      "patientName": "Ezequiel M",
+      "date": "2026-05-26",
+      "status": "cancelada_legal",
+      "amount": 40000,
+      "note": "Tiene curso de iglesia y tenemos que quedar para demana que viene horario nuevo.",
+      "loggedAt": "2026-05-26T03:46:36.650Z"
+    },
+    "mpm38ym6dc9s": {
+      "id": "mpm38ym6dc9s",
+      "patientId": "mpjzl0mhs2xk",
+      "patientName": "Pablo D",
+      "date": "2026-05-14",
+      "status": "realizada",
+      "amount": 40000,
+      "note": "",
+      "loggedAt": "2026-05-26T03:41:21.342Z"
+    },
+    "mpm3dg6csdyx": {
+      "id": "mpm3dg6csdyx",
+      "patientId": "mpm3d894ilf0",
+      "patientName": "Augusto S",
+      "date": "2026-05-04",
+      "status": "realizada",
+      "amount": 30000,
+      "note": "",
+      "loggedAt": "2026-05-26T03:44:50.724Z"
+    },
+    "mpm3dpdam7zo": {
+      "id": "mpm3dpdam7zo",
+      "patientId": "mpm3d894ilf0",
+      "patientName": "Augusto S",
+      "date": "2026-05-11",
+      "status": "realizada",
+      "amount": 30000,
+      "note": "",
+      "loggedAt": "2026-05-26T03:45:02.638Z"
+    },
+    "mpm3dyv3vawe": {
+      "id": "mpm3dyv3vawe",
+      "patientId": "mpm3d894ilf0",
+      "patientName": "Augusto S",
+      "date": "2026-05-18",
+      "status": "realizada",
+      "amount": 30000,
+      "note": "",
+      "loggedAt": "2026-05-26T03:45:14.943Z"
+    },
+    "mpmtrik3gasa": {
+      "id": "mpmtrik3gasa",
+      "patientId": "mpj5rpirrdw0",
+      "patientName": "Fernando S",
+      "date": "2026-05-26",
+      "status": "realizada",
+      "amount": 40000,
+      "note": "",
+      "loggedAt": "2026-05-26T16:03:37.011Z"
+    },
+    "mpmvhjwlph8m": {
+      "id": "mpmvhjwlph8m",
+      "patientId": "mpm3d894ilf0",
+      "patientName": "Augusto S",
+      "date": "2026-05-25",
+      "status": "realizada",
+      "amount": 30000,
+      "note": "",
+      "loggedAt": "2026-05-26T16:51:51.429Z"
+    },
+    "mpmzillgq9v0": {
+      "id": "mpmzillgq9v0",
+      "patientId": "mpj5tn5lpuq1",
+      "patientName": "Mauro Fut",
+      "date": "2026-05-26",
+      "status": "realizada",
+      "amount": 40000,
+      "note": "",
+      "loggedAt": "2026-05-26T18:44:38.741Z"
+    },
+    "mpnb0dt2aiop": {
+      "id": "mpnb0dt2aiop",
+      "patientId": "mpj5vhfmqsjm",
+      "patientName": "Mabel Fut",
+      "date": "2026-05-26",
+      "status": "realizada",
+      "amount": 40000,
+      "note": "",
+      "loggedAt": "2026-05-27T00:06:24.230Z"
+    },
+    "mpnb0qyoyugj": {
+      "id": "mpnb0qyoyugj",
+      "patientId": "mpjyrwqjn2rq",
+      "patientName": "Martín F",
+      "date": "2026-05-26",
+      "status": "realizada",
+      "amount": 35000,
+      "note": "",
+      "loggedAt": "2026-05-27T00:06:41.280Z"
+    },
+    "mpq45nbejhke": {
+      "id": "mpq45nbejhke",
+      "patientId": "mpk04fq6il75",
+      "patientName": "Iván Geld",
+      "date": "2026-05-28",
+      "status": "realizada",
+      "amount": 50000,
+      "note": "",
+      "loggedAt": "2026-05-28T23:17:51.050Z"
+    },
+    "mpq47evetnfj": {
+      "id": "mpq47evetnfj",
+      "patientId": "mpk04fq6il75",
+      "patientName": "Iván Geld",
+      "date": "2025-01-26",
+      "status": "realizada",
+      "amount": 50000,
+      "note": "Sesión extra con familia - martes 20:00hs",
+      "loggedAt": "2026-05-28T23:19:13.418Z"
     }
   },
   "payments": {
@@ -1098,6 +1266,267 @@
       "date": "2026-05-26",
       "note": "",
       "loggedAt": "2026-05-26T03:10:52.475Z"
+    },
+    "mpm28n8rs1jw": {
+      "id": "mpm28n8rs1jw",
+      "patientId": "mpj5tn5lpuq1",
+      "patientName": "Mauro Fut",
+      "amount": 40000,
+      "date": "2026-05-26",
+      "note": "",
+      "loggedAt": "2026-05-26T03:13:06.987Z"
+    },
+    "mpm29c63cot6": {
+      "id": "mpm29c63cot6",
+      "patientId": "mpjwnny4lj7o",
+      "patientName": "Ezequiel M",
+      "amount": 40000,
+      "date": "2026-05-26",
+      "note": "",
+      "loggedAt": "2026-05-26T03:13:39.291Z"
+    },
+    "mpm29lw4k53n": {
+      "id": "mpm29lw4k53n",
+      "patientId": "mpjyrwqjn2rq",
+      "patientName": "Martín F",
+      "amount": 35000,
+      "date": "2026-05-26",
+      "note": "",
+      "loggedAt": "2026-05-26T03:13:51.892Z"
+    },
+    "mpm2r3n67z1g": {
+      "id": "mpm2r3n67z1g",
+      "patientId": "mpjzos4cih1a",
+      "patientName": "Rubén B",
+      "amount": 30000,
+      "date": "2026-05-26",
+      "note": "",
+      "loggedAt": "2026-05-26T03:27:28.050Z"
+    },
+    "mpm2sdlyv8zi": {
+      "id": "mpm2sdlyv8zi",
+      "patientId": "mpk015nz0fgb",
+      "patientName": "Mariana F",
+      "amount": 30000,
+      "date": "2026-05-26",
+      "note": "",
+      "loggedAt": "2026-05-26T03:28:27.622Z"
+    },
+    "mpm2snzz717r": {
+      "id": "mpm2snzz717r",
+      "patientId": "mpk015nz0fgb",
+      "patientName": "Mariana F",
+      "amount": 30000,
+      "date": "2026-05-26",
+      "note": "",
+      "loggedAt": "2026-05-26T03:28:41.087Z"
+    },
+    "mpm2szij752v": {
+      "id": "mpm2szij752v",
+      "patientId": "mpk015nz0fgb",
+      "patientName": "Mariana F",
+      "amount": 30000,
+      "date": "2026-05-26",
+      "note": "",
+      "loggedAt": "2026-05-26T03:28:56.011Z"
+    },
+    "mpm2xep2urh1": {
+      "id": "mpm2xep2urh1",
+      "patientId": "mpjzos4cih1a",
+      "patientName": "Rubén B",
+      "amount": 30000,
+      "date": "2026-05-26",
+      "note": "",
+      "loggedAt": "2026-05-26T03:32:22.310Z"
+    },
+    "mpm2yqan2dv3": {
+      "id": "mpm2yqan2dv3",
+      "patientId": "mpjwnny4lj7o",
+      "patientName": "Ezequiel M",
+      "amount": 40000,
+      "date": "2026-05-26",
+      "note": "",
+      "loggedAt": "2026-05-26T03:33:23.999Z"
+    },
+    "mpm2zabde5ib": {
+      "id": "mpm2zabde5ib",
+      "patientId": "mpj5tn5lpuq1",
+      "patientName": "Mauro Fut",
+      "amount": 40000,
+      "date": "2026-05-26",
+      "note": "",
+      "loggedAt": "2026-05-26T03:33:49.945Z"
+    },
+    "mpm348sgw41f": {
+      "id": "mpm348sgw41f",
+      "patientId": "mpjwnny4lj7o",
+      "patientName": "Ezequiel M",
+      "amount": 40000,
+      "date": "2026-05-26",
+      "note": "",
+      "loggedAt": "2026-05-26T03:37:41.248Z"
+    },
+    "mpm34rcjkusr": {
+      "id": "mpm34rcjkusr",
+      "patientId": "mpj5vhfmqsjm",
+      "patientName": "Mabel Fut",
+      "amount": 40000,
+      "date": "2026-05-26",
+      "note": "",
+      "loggedAt": "2026-05-26T03:38:05.299Z"
+    },
+    "mpm373727s1e": {
+      "id": "mpm373727s1e",
+      "patientId": "mpj5vhfmqsjm",
+      "patientName": "Mabel Fut",
+      "amount": 40000,
+      "date": "2026-05-26",
+      "note": "",
+      "loggedAt": "2026-05-26T03:39:53.966Z"
+    },
+    "mpm37pnjrez2": {
+      "id": "mpm37pnjrez2",
+      "patientId": "mpjzjw79gq4d",
+      "patientName": "Julián L",
+      "amount": 40000,
+      "date": "2026-05-26",
+      "note": "",
+      "loggedAt": "2026-05-26T03:40:23.071Z"
+    },
+    "mpm37vm4rfju": {
+      "id": "mpm37vm4rfju",
+      "patientId": "mpjzl0mhs2xk",
+      "patientName": "Pablo D",
+      "amount": 40000,
+      "date": "2026-05-26",
+      "note": "",
+      "loggedAt": "2026-05-26T03:40:30.796Z"
+    },
+    "mpm38c1kry5k": {
+      "id": "mpm38c1kry5k",
+      "patientId": "mpjzjw79gq4d",
+      "patientName": "Julián L",
+      "amount": 40000,
+      "date": "2026-05-26",
+      "note": "",
+      "loggedAt": "2026-05-26T03:40:52.088Z"
+    },
+    "mpm38h846e9m": {
+      "id": "mpm38h846e9m",
+      "patientId": "mpjzl0mhs2xk",
+      "patientName": "Pablo D",
+      "amount": 40000,
+      "date": "2026-05-26",
+      "note": "",
+      "loggedAt": "2026-05-26T03:40:58.804Z"
+    },
+    "mpm38stsh0la": {
+      "id": "mpm38stsh0la",
+      "patientId": "mpjzl0mhs2xk",
+      "patientName": "Pablo D",
+      "amount": 40000,
+      "date": "2026-05-26",
+      "note": "",
+      "loggedAt": "2026-05-26T03:41:13.840Z"
+    },
+    "mpm392l4ljaq": {
+      "id": "mpm392l4ljaq",
+      "patientId": "mpjzl0mhs2xk",
+      "patientName": "Pablo D",
+      "amount": 40000,
+      "date": "2026-05-26",
+      "note": "",
+      "loggedAt": "2026-05-26T03:41:26.488Z"
+    },
+    "mpm3c342dtr4": {
+      "id": "mpm3c342dtr4",
+      "patientId": "mpjze9v17wr0",
+      "patientName": "Bruno D",
+      "amount": 45000,
+      "date": "2026-05-26",
+      "note": "",
+      "loggedAt": "2026-05-26T03:43:47.138Z"
+    },
+    "mpm3dla657ff": {
+      "id": "mpm3dla657ff",
+      "patientId": "mpm3d894ilf0",
+      "patientName": "Augusto S",
+      "amount": 30000,
+      "date": "2026-05-26",
+      "note": "",
+      "loggedAt": "2026-05-26T03:44:57.342Z"
+    },
+    "mpm3dsfgvw0i": {
+      "id": "mpm3dsfgvw0i",
+      "patientId": "mpm3d894ilf0",
+      "patientName": "Augusto S",
+      "amount": 30000,
+      "date": "2026-05-26",
+      "note": "",
+      "loggedAt": "2026-05-26T03:45:06.604Z"
+    },
+    "mpm3e331ph6d": {
+      "id": "mpm3e331ph6d",
+      "patientId": "mpm3d894ilf0",
+      "patientName": "Augusto S",
+      "amount": 30000,
+      "date": "2026-05-26",
+      "note": "",
+      "loggedAt": "2026-05-26T03:45:20.413Z"
+    },
+    "mpm3g591hvv0": {
+      "id": "mpm3g591hvv0",
+      "patientId": "mpk04fq6il75",
+      "patientName": "Iván Geld",
+      "amount": 50000,
+      "date": "2025-01-20",
+      "note": "Pago registrado",
+      "loggedAt": "2026-05-26T03:46:56.533Z"
+    },
+    "mpmtrnfs6ynx": {
+      "id": "mpmtrnfs6ynx",
+      "patientId": "mpj5rpirrdw0",
+      "patientName": "Fernando S",
+      "amount": 40000,
+      "date": "2026-05-26",
+      "note": "",
+      "loggedAt": "2026-05-26T16:03:43.336Z"
+    },
+    "mpmtsh3kv32d": {
+      "id": "mpmtsh3kv32d",
+      "patientId": "mpjze9v17wr0",
+      "patientName": "Bruno D",
+      "amount": 45000,
+      "date": "2026-05-26",
+      "note": "",
+      "loggedAt": "2026-05-26T16:04:21.776Z"
+    },
+    "mpmvhnek5oed": {
+      "id": "mpmvhnek5oed",
+      "patientId": "mpm3d894ilf0",
+      "patientName": "Augusto S",
+      "amount": 30000,
+      "date": "2026-05-26",
+      "note": "",
+      "loggedAt": "2026-05-26T16:51:55.964Z"
+    },
+    "mpmzir7eysqy": {
+      "id": "mpmzir7eysqy",
+      "patientId": "mpj5tn5lpuq1",
+      "patientName": "Mauro Fut",
+      "amount": 40000,
+      "date": "2026-05-26",
+      "note": "",
+      "loggedAt": "2026-05-26T18:44:46.010Z"
+    },
+    "mpnb0jjfgehb": {
+      "id": "mpnb0jjfgehb",
+      "patientId": "mpj5vhfmqsjm",
+      "patientName": "Mabel Fut",
+      "amount": 40000,
+      "date": "2026-05-26",
+      "note": "",
+      "loggedAt": "2026-05-27T00:06:31.659Z"
     }
   },
   "ipcHistory": [
@@ -1137,7 +1566,7 @@
   "waitingList": [],
   "dollarRates": [],
   "lastFeeReview": "2026-05-23",
-  "lastDailyCheck": "2026-05-26",
+  "lastDailyCheck": "2026-05-28",
   "lastEndOfDay": "2026-05-25",
   "settings": {
     "inPersonDay": "viernes",
@@ -1148,5 +1577,8 @@
     "autoSync": false
   },
   "driveFileId": null,
-  "githubConfig": null
+  "githubConfig": {
+    "owner": "bellaquerorodolfo",
+    "repo": "rbq-consultorio-backup"
+  }
 }
